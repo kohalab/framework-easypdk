@@ -35,10 +35,14 @@
   #include "device/pfc161.h"
 #elif defined(PFS154)
   #include "device/pfs154.h"
-#elif defined(PFS172) || defined(PFS122) || defined(PFS121)
+#elif defined(PFS172) || defined(PFS121)
   #include "device/pfs172.h"
-#elif defined(PFS173) || defined(PFS123)
+#elif defined(PFS122)
+  #include "device/pfs122.h"
+#elif defined(PFS173)
   #include "device/pfs173.h"
+#elif defined(PFS123)
+  #include "device/pfs123.h"
 #elif defined(PMS131)
   #include "device/pms131.h"
 #elif defined(PMS150C) || defined(PMS15A)
