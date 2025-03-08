@@ -24,11 +24,11 @@
   might be covered by the GNU General Public License.
 */
 
-#ifndef __PDK_DEVICE_PFS173_H__
-#define __PDK_DEVICE_PFS173_H__
+#ifndef __PDK_DEVICE_PFS123_H__
+#define __PDK_DEVICE_PFS123_H__
 
 #if !defined(__PDK_DEVICE_XXX_H__)
-	#define __PDK_DEVICE_XXX_H__ "pfs173.h"
+	#define __PDK_DEVICE_XXX_H__ "pfs123.h"
 #else
 	#error "Attempt to include more than one "pdk/device/XXX.h" file."
 #endif
@@ -158,7 +158,7 @@
 #define __PDK_HAS_TM3
 #define __PDK_HAS_PWMG
 #define __PDK_HAS_ADC
-#define __PDK_HAS_UNDOCUMENTED_11BIT_ADC
+#define __PDK_HAS_ADC_12BIT
 #define __PDK_HAS_LCD
 
 #include "periph/accumulator.h"
